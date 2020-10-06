@@ -17,7 +17,7 @@ function getRequestParams({ email, phone }) {
   const data = {
     email_address: email,
     status: 'subscribed',
-    phone: phone,
+    merge_fields: { PHONE: phone },
   };
 
   // Api key needs to be encoded in base 64 format

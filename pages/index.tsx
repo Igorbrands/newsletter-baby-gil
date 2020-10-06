@@ -10,13 +10,6 @@ import {
 import Input from '../components/Input';
 import axios from 'axios';
 
-interface Contact {
-  email: string;
-  contact: {
-    phone: string;
-  };
-}
-
 export default function Home() {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
@@ -30,7 +23,7 @@ export default function Home() {
     setErrorMessage(null);
 
     try {
-      const response = await axios.post<Contact>('/api/subscribe', {
+      const response = await axios.post('/api/subscribe', {
         email,
         phone,
       });
