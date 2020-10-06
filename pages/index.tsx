@@ -108,7 +108,7 @@ export default function Home() {
           <p style={{ marginTop: '10px', color: 'red' }}>{errorMessage}</p>
         )}
         {state === 'SUCCESS' && (
-          <p style={{ marginTop: '10px', color: 'green' }}>Successo!🎉</p>
+          <p style={{ marginTop: '10px', color: 'green' }}>Sucesso!🎉 </p>
         )}
         <Text textAlign="center" fontSize="18px" marginTop={2} color="#fff">
           Feito com ❤️ por Igor e Dai
