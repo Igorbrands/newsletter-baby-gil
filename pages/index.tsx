@@ -109,7 +109,7 @@ export default function Home() {
         )}
         {state === 'SUCCESS' && (
           <p style={{ fontSize: '18px', marginTop: '10px', color: 'green' }}>
-            Sucesso!🎉 Você irá receber um e-mail explicando tudinho{' '}
+            Sucesso!🎉 Você irá receber um e-mail explicando tudinho
           </p>
         )}
         <Text textAlign="center" fontSize="18px" marginTop={2} color="#fff">
